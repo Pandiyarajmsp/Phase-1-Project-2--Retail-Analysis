@@ -1,0 +1,8 @@
+
+create database if exists customer_reports;
+create table if exists customer_frustration_level;
+
+CREATE TABLE customer_reports.customer_frustration_level ( customernumber varchar(200), total_siverity
+float,frustration_level varchar(100) );
+
+

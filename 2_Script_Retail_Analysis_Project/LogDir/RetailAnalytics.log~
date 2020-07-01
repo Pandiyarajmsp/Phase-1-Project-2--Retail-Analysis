@@ -1,0 +1,410 @@
+20/06/09 19:12:29-------------------RetailAnalytics project data load started Good Luck----------------- 
+20/06/09 19:12:29 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:12:29 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:12:29 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:12:29 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:12:29 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:12:29 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:12:29 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:13:04 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:13:04 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:13:32 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:13:32 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:14:05 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:14:05 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:14:06 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6
+20/06/09 19:14:07 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Error parsing arguments for import:
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: o.customernumber
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: --delete-target-dir
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: --target-dir
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: orderdetails/2016-10/
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: --null-string
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: NA
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: --direct
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: --num-mappers
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: 4
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: --fields-terminated-by
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: ~
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: --lines-terminated-by
+20/06/09 19:14:08 ERROR tool.BaseSqoopTool: Unrecognized argument: \n
+
+Try --help for usage instructions.
+20/06/09 19:18:44-------------------RetailAnalytics project data load started Good Luck----------------- 
+20/06/09 19:18:45 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:18:45 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:18:45 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:18:45 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:18:45 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:18:45 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:18:45 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:19:17 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:19:17 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:19:47 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:19:47 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:20:21 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:20:21 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:20:22 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6
+20/06/09 19:20:22 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Error parsing arguments for import:
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: o.customernumber
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: --delete-target-dir
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: --target-dir
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: orderdetails/2016-10/
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: --null-string
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: NA
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: --direct
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: --num-mappers
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: 4
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: --fields-terminated-by
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: ~
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: --lines-terminated-by
+20/06/09 19:20:24 ERROR tool.BaseSqoopTool: Unrecognized argument: \n
+
+Try --help for usage instructions.
+20/06/09 19:26:11-------------------RetailAnalytics project data load started Good Luck----------------- 
+20/06/09 19:26:11 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:26:11 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:26:11 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:26:11 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:26:11 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:26:11 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:26:11 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:26:43 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:26:43 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:27:11 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:27:11 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:27:45 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:27:45 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:27:46 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6
+20/06/09 19:27:46 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Error parsing arguments for import:
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: o.customernumber
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: --delete-target-dir
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: --target-dir
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: orderdetails/2016-10/
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: --null-string
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: NA
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: --direct
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: --num-mappers
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: 4
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: --fields-terminated-by
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: ~
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: --lines-terminated-by
+20/06/09 19:27:48 ERROR tool.BaseSqoopTool: Unrecognized argument: \n
+
+Try --help for usage instructions.
+20/06/09 19:30:50-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 19:30:50 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:30:50 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:30:50 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:30:50 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:30:50 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:30:50 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:30:50 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:31:23 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:31:23 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:31:51 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:31:51 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:32:22 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:32:22 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:32:23 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6
+20/06/09 19:32:24 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Error parsing arguments for import:
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: o.customernumber
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: --delete-target-dir
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: --target-dir
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: orderdetails/2016-10/
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: --null-string
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: NA
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: --direct
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: --num-mappers
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: 4
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: --fields-terminated-by
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: ~
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: --lines-terminated-by
+20/06/09 19:32:25 ERROR tool.BaseSqoopTool: Unrecognized argument: \n
+
+Try --help for usage instructions.
+20/06/09 19:34:10-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 19:34:10 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:34:10 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:34:10 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:34:10 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:34:10 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:34:10 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:34:10 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:34:41 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:34:41 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:35:08 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:35:08 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:35:41 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:35:41 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:36:25 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 19:36:25 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 19:36:30 Error in 2_2_Retail_Internal_table.hql
+20/06/09 19:39:10-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 19:39:10 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:39:10 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:39:10 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:39:10 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:39:10 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:39:10 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:39:10 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:39:41 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:39:41 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:40:01 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:40:01 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:40:19 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:40:19 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:40:44 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 19:40:44 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 19:40:47 Error in 2_2_Retail_Internal_table.hql
+20/06/09 19:42:24-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 19:42:24 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:42:24 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:42:24 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:42:24 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:42:24 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:42:24 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:42:24 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:42:42 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:42:42 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:42:59 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:42:59 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:43:18 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:43:18 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:43:42 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 19:43:42 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 19:44:01 Error in 2_2_Retail_Internal_table.hql
+20/06/09 19:52:35-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 19:52:35 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 19:52:35 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 19:52:35 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 19:52:35 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 19:52:35 MySql :Table creation and dataload for empoffice started 
+20/06/09 19:52:35 MySql :Table creation and dataload for empoffice completed 
+20/06/09 19:52:35 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 19:52:52 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 19:52:52 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 19:53:09 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 19:53:09 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 19:53:29 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 19:53:29 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 19:53:53 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 19:53:53 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 19:54:13 Error in 2_2_Retail_Internal_table.hql
+20/06/09 20:09:38-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 20:09:38 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 20:09:38 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 20:09:38 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 20:09:38 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 20:09:38 MySql :Table creation and dataload for empoffice started 
+20/06/09 20:09:38 MySql :Table creation and dataload for empoffice completed 
+20/06/09 20:09:38 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 20:09:43 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database completed 
+20/06/09 20:09:43 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 20:10:03 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 20:10:03 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 20:10:20 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 20:10:20 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 20:10:39 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 20:10:39 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 20:11:04 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 20:11:04 Hive  : custdetstg data load  started 
+20/06/09 20:11:08 Error in 2_3_Retail_managed_table_insert.hql
+20/06/09 20:27:18-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 20:27:18 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 20:27:18 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 20:27:18 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 20:27:18 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 20:27:18 MySql :Table creation and dataload for empoffice started 
+20/06/09 20:27:18 MySql :Table creation and dataload for empoffice completed 
+20/06/09 20:27:18 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 20:27:23 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database completed 
+20/06/09 20:27:23 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 20:27:41 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 20:27:41 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 20:27:58 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 20:27:58 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 20:28:17 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 20:28:17 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 20:28:42 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 20:28:42 Hive  : custdetstg data load  started 
+20/06/09 20:29:00 Hive  : custdetstg data load completed 
+20/06/09 21:02:47-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 21:02:47 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 21:02:48 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 21:02:48 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 21:02:48 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 21:02:48 MySql :Table creation and dataload for empoffice started 
+20/06/09 21:02:48 MySql :Table creation and dataload for empoffice completed 
+20/06/09 21:02:48 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 21:02:58 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database completed 
+20/06/09 21:02:58 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 21:03:31 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 21:03:31 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 21:04:01 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 21:04:01 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 21:04:36 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 21:04:36 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 21:05:24 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 21:05:24 Hive  : custdetstg data load  started 
+20/06/09 21:05:55 Hive  : custdetstg data load completed 
+20/06/09 21:05:58 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/09 21:06:06 Error in 2_4_Retail_External_table_withPartitionandBucket.hql
+20/06/09 22:07:39-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 22:07:39 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 22:07:39 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 22:07:39 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 22:07:39 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 22:07:39 MySql :Table creation and dataload for empoffice started 
+20/06/09 22:07:39 MySql :Table creation and dataload for empoffice completed 
+20/06/09 22:07:39 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 22:07:48 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database completed 
+20/06/09 22:07:48 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 22:08:21 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 22:08:21 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 22:08:48 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 22:08:48 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 22:09:19 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 22:09:19 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 22:10:01 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 22:10:01 Hive  : custdetstg data load  started 
+20/06/09 22:10:32 Hive  : custdetstg data load completed 
+20/06/09 22:10:35 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/09 22:10:43 Error in 2_4_Retail_External_table_withPartitionandBucket.hql
+20/06/09 23:35:29-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/09 23:35:29 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/09 23:35:29 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/09 23:35:29 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/09 23:35:29 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/09 23:35:29 MySql :Table creation and dataload for empoffice started 
+20/06/09 23:35:29 MySql :Table creation and dataload for empoffice completed 
+20/06/09 23:35:29 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/09 23:35:38 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database completed 
+20/06/09 23:35:38 Sqoop import :employees table data imported to Hdfs started 
+20/06/09 23:36:09 Sqoop import :employees table data imported to Hdfs completed 
+20/06/09 23:36:09 Sqoop import :offices table data imported to Hdfs started 
+20/06/09 23:36:37 Sqoop import :offices table data imported to Hdfs completed 
+20/06/09 23:36:37 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/09 23:37:09 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/09 23:37:09 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/09 23:37:49 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/09 23:37:49 Hive  : custdetstg data load  started 
+20/06/09 23:38:19 Hive  : custdetstg data load completed 
+20/06/09 23:38:21 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/09 23:40:06 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load completed 
+20/06/10 04:52:35-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/10 04:52:35 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/10 04:52:35 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/10 04:52:35 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/10 04:52:35 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/10 04:52:35 MySql :Table creation and dataload for empoffice started 
+20/06/10 04:52:35 MySql :Table creation and dataload for empoffice completed 
+20/06/10 04:52:35 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database started 
+20/06/10 04:52:44 Hive  : custdetails,custdetstg,orddetstg creation under retail_stg database completed 
+20/06/10 04:52:44 Sqoop import :employees table data imported to Hdfs started 
+20/06/10 04:53:16 Sqoop import :employees table data imported to Hdfs completed 
+20/06/10 04:53:16 Sqoop import :offices table data imported to Hdfs started 
+20/06/10 04:53:43 Sqoop import :offices table data imported to Hdfs completed 
+20/06/10 04:53:43 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/10 04:54:15 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/10 04:54:15 Sqoop import :orders , orderdetails and products table data imported to Hdfs started 
+20/06/10 04:54:57 Sqoop import :orders , orderdetails and products table data imported to Hdfs completed 
+20/06/10 04:54:57 Hive  : custdetstg data load  started 
+20/06/10 04:55:28 Hive  : custdetstg data load completed 
+20/06/10 04:55:34 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/10 04:57:20 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load completed 
+20/06/10 04:57:25 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/10 04:59:02 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load completed 
+20/06/10 04:59:04 Hive  : order_rate,orddetstg,cust_navigation table creation and data load started 
+20/06/10 04:59:13 Hive  : order_rate,orddetstg,cust_navigation table creation and data load completed 
+20/06/10 04:59:16 Hive  : cust_frustration_level table creation and data load started 
+20/06/10 05:00:21 Hive  : cust_frustration_level table creation and data load completed 
+20/06/10 05:00:21 MYSQL : cust_frustration_level table creation started 
+20/06/10 05:00:21 MYSQL : cust_frustration_level table creation  completed 
+20/06/10 05:00:21 Hive  : cust_frustration_level table creation and data load started 
+20/06/10 05:00:58 Hive  : cust_frustration_level table creation and data load completed 
+20/06/10 05:43:29-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/10 05:43:29 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/10 05:43:29 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/10 05:43:29 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/10 05:43:29 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/10 05:43:29 MySql :Table creation and dataload for empoffice started 
+20/06/10 05:43:29 MySql :Table creation and dataload for empoffice completed 
+20/06/10 05:43:29 Hive  : custdetails,custdetstg,orddetstg table creation under retail_stg database started 
+20/06/10 05:43:34 Hive  : custdetails,custdetstg,orddetstg table creation under retail_stg database completed 
+20/06/10 05:43:34 Sqoop import :employees table data import started 
+20/06/10 05:43:52 Sqoop import :employees table data import completed 
+20/06/10 05:43:52 Sqoop import :offices table data import started 
+20/06/10 05:44:10 Sqoop import :offices table data import completed 
+20/06/10 05:44:10 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/10 05:44:30 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/10 05:44:30 Sqoop import :orders , orderdetails and products table data import to Hdfs started 
+20/06/10 05:44:55 Sqoop import :orders , orderdetails and products table data import to Hdfs completed 
+20/06/10 05:44:55 Hive  : custdetstg data load  started 
+20/06/10 05:45:14 Hive  : custdetstg data load completed 
+20/06/10 05:45:16 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/10 05:46:25 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load completed 
+20/06/10 05:46:28 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/10 05:47:32 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load completed 
+20/06/10 05:47:34 Hive  : order_rate,orddetstg,cust_navigation table creation and data load started 
+20/06/10 05:47:40 Hive  : order_rate,orddetstg,cust_navigation table creation and data load completed 
+20/06/10 05:47:42 Hive  : cust_frustration_level table creation and data load started 
+20/06/10 05:48:22 Hive  : cust_frustration_level table creation and data load completed 
+20/06/10 05:48:22 MYSQL : customer_reports.customer_frustration_level table creation started 
+20/06/10 05:48:22 MYSQL : customer_reports.customer_frustration_level table  completed 
+20/06/10 05:48:22 Hive  : cust_frustration_level table creation and data load started 
+20/06/10 05:48:47 Hive  : cust_frustration_level table creation and data load completed 
+--------project executed successfully in -343 Minute -------
+20/06/10 05:53:32-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/10 05:53:32 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/10 05:53:32 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/10 05:53:32 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/10 05:53:32 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/10 05:53:32 MySql :Table creation and dataload for empoffice started 
+20/06/10 05:53:32 MySql :Table creation and dataload for empoffice completed 
+20/06/10 05:53:32 Hive  : custdetails,custdetstg,orddetstg table creation under retail_stg database started 
+20/06/10 05:53:37 Hive  : custdetails,custdetstg,orddetstg table creation under retail_stg database completed 
+20/06/10 05:53:37 Sqoop import :employees table data import started 
+20/06/10 05:53:37 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6
+20/06/10 05:53:37 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/06/10 05:53:38 ERROR tool.BaseSqoopTool: Error parsing arguments for import:
+20/06/10 05:53:38 ERROR tool.BaseSqoopTool: Unrecognized argument: --lines-terminated-b
+20/06/10 05:53:38 ERROR tool.BaseSqoopTool: Unrecognized argument: \n
+20/06/10 05:53:38 ERROR tool.BaseSqoopTool: Unrecognized argument: --direct
+
+Try --help for usage instructions.
+20/06/10 06:31:14-------------------RetailAnalytics project data load started Good Luck---------------------
+20/06/10 06:31:14 MySql :Table creation and dataload for ordersproduct_ORIG started 
+20/06/10 06:31:14 MySql :Table creation and dataload for ordersproduct_ORIG completed 
+20/06/10 06:31:14 MySql :Table creation and dataload for custpayments_ORIG started 
+20/06/10 06:31:14 MySql :Table creation and dataload for custpayments_ORIG completed 
+20/06/10 06:31:14 MySql :Table creation and dataload for empoffice started 
+20/06/10 06:31:14 MySql :Table creation and dataload for empoffice completed 
+20/06/10 06:31:14 Hive  : custdetails,custdetstg,orddetstg table creation under retail_stg database started 
+20/06/10 06:31:19 Hive  : custdetails,custdetstg,orddetstg table creation under retail_stg database completed 
+20/06/10 06:31:19 Sqoop import :employees table data import started 
+20/06/10 06:31:38 Sqoop import :employees table data import completed 
+20/06/10 06:31:38 Sqoop import :offices table data import started 
+20/06/10 06:31:54 Sqoop import :offices table data import completed 
+20/06/10 06:31:54 Sqoop import :customer and payment table data imported to Hdfs started 
+20/06/10 06:32:15 Sqoop import :customer and payment table data imported to Hdfs completed 
+20/06/10 06:32:15 Sqoop import :orders , orderdetails and products table data import to Hdfs started 
+20/06/10 06:32:40 Sqoop import :orders , orderdetails and products table data import to Hdfs completed 
+20/06/10 06:32:40 Hive  : custdetstg data load  started 
+20/06/10 06:32:58 Hive  : custdetstg data load completed 
+20/06/10 06:33:00 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/10 06:34:09 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load completed 
+20/06/10 06:34:12 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load started 
+20/06/10 06:35:17 Hive  : custdetpartbuckext,orddetpartbuckext table creation and partion load completed 
+20/06/10 06:35:19 Hive  : order_rate,orddetstg,cust_navigation table creation and data load started 
+20/06/10 06:35:24 Hive  : order_rate,orddetstg,cust_navigation table creation and data load completed 
+20/06/10 06:35:26 Hive  : cust_frustration_level table creation and data load started 
+20/06/10 06:36:07 Hive  : cust_frustration_level table creation and data load completed 
+20/06/10 06:36:07 MYSQL : customer_reports.customer_frustration_level table creation started 
+20/06/10 06:36:07 MYSQL : customer_reports.customer_frustration_level table  completed 
+20/06/10 06:36:07 Hive  : cust_frustration_level table creation and data load started 
+20/06/10 06:36:30 Hive  : cust_frustration_level table creation and data load completed 
+--------project executed successfully in 5 Minute -------

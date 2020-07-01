@@ -1,0 +1,120 @@
+bash 2_Script_Retail_Analysis_Project/2_1_RetailOrderMain.sh
+
+Addition things implemented apart from document:
+================================================
+1.Logging and Error handling
+2.Running direct script / running from files (.sh,.sql,.hql)
+3.Error log writter handled by fuction to reduce multiple repeted code 
+4.Pre qa and Post qa validation on sqoop import
+5.running hive query through beeline 
+6.end to end automation 
+
+
+Hive Database details :
+======================
+custdb
+
+	cstpstreorder
+	defaulters
+
+insure
+	insurance
+	insuranceorc
+	middlegradeview
+	state_master
+retail
+	retail_mart
+	cust_frustration_level
+	cust_navigation
+	custdetpartbuckext
+	custordfinal
+	custordpartfinal
+	orddetpartbuckext
+	retail_mart__custordpartfinal_idx_custordpartfinal_phone__
+retail_stg
+	custdetails
+	custdetstg
+	orddetstg
+
+
+
+Mysql Database details:
+=======================
+
+custdb
+	credits_cst
+	credits_pst
+	custmaster
+	middlegrade
+
+customer_reports
+
+	customer_frustration_level 
+
+custpayments  
+	customers
+	payments     
+
+empoffice   
+	employees
+	offices 
+      
+ordersproducts 
+
+	orderdetails
+	orders
+	products  
+
+
+ORC Table performance analysis :
+-------------------------------------------------------------------------------------
+ORC :
+custordfinal
+hadoop fs -ls /user/hduser/custorders/custordfinal
+
+select count(1) from custordfinal;
+
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2020-06-10 04:01:02,449 Stage-1 map = 0%,  reduce = 0%
+2020-06-10 04:01:09,864 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 2.55 sec
+2020-06-10 04:01:17,321 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 5.15 sec
+MapReduce Total cumulative CPU time: 5 seconds 150 msec
+Ended Job = job_1591585751248_0305
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 5.15 sec   HDFS Read: 45006 HDFS Write: 6 SUCCESS
+Total MapReduce CPU Time Spent: 5 seconds 150 msec
+OK
+72090
+Time taken: 25.01 seconds, Fetched: 1 row(s)
+
+
+
+TEXT file :
+custordpartfinal
+hadoop fs -ls /user/hduser/custorders/custordpartfinal
+
+select count(1) from custordpartfinal;
+
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2020-06-10 04:01:55,297 Stage-1 map = 0%,  reduce = 0%
+2020-06-10 04:02:03,820 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 3.48 sec
+2020-06-10 04:02:11,298 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 6.11 sec
+MapReduce Total cumulative CPU time: 6 seconds 110 msec
+Ended Job = job_1591585751248_0306
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 6.11 sec   HDFS Read: 8871844 HDFS Write: 6 SUCCESS
+Total MapReduce CPU Time Spent: 6 seconds 110 msec
+OK
+36045
+Time taken: 26.434 seconds, Fetched: 1 row(s)
+
+-----------------------------------------------------------------------------------------------------------
+select * from custordpartfinal
+
+select * from retail_mart.cust_frustration_level;
+select customernumber,navigation_pg ,row_number() over (partition by customernumber order by navigation_index desc) as visit_number from retail_mart.cust_navigation;
+
+-------------------------------------------------------------
+final table in MYSQL :
+
+select * from customer_frustration_level limit 10;

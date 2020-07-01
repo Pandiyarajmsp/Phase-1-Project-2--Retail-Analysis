@@ -1,0 +1,6 @@
+use retail_stg; drop table if
+exists order_rate;
+create table retail_stg.order_rate (rid int,orddesc varchar(200),comp_cust varchar(10),siverity int) row format
+delimited fields terminated by ',';
+load data local inpath '/home/hduser/retailorders/orders_rate.csv' overwrite into table order_rate;
+

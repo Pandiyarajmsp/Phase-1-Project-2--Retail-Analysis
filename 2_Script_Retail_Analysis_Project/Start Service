@@ -1,0 +1,4 @@
+sudo service mysqld start
+mysql -u root -p
+Password: root
+

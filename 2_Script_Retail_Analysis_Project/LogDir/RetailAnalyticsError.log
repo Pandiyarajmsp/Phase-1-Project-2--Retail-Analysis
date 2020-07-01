@@ -1,0 +1,9 @@
+20/06/10 10:22:12 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6
+20/06/10 10:22:12 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/06/10 10:22:13 ERROR tool.BaseSqoopTool: Error parsing arguments for import:
+20/06/10 10:22:13 ERROR tool.BaseSqoopTool: Unrecognized argument: --fields-terminated-b
+20/06/10 10:22:13 ERROR tool.BaseSqoopTool: Unrecognized argument: ~
+20/06/10 10:22:13 ERROR tool.BaseSqoopTool: Unrecognized argument: --lines-terminated-by
+20/06/10 10:22:13 ERROR tool.BaseSqoopTool: Unrecognized argument: \n
+
+Try --help for usage instructions.
